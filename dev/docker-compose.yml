@@ -29,6 +29,7 @@ services:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
       - JOBS_INTERVAL=10
       - REDIS_CACHE=redis
+      - SESSIONS_SAVE_PATH=tcp://redis:6379
       - APP_MODE=development
       - BUILD_ASSETS=1
       - MAILER_TRANSPORT=smtp://mailhog:1025
