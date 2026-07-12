@@ -1,0 +1,53 @@
+/*
+ * Paleta de cores do Mapa Cultural de Mairiporã
+ *
+ * Este arquivo sobrescreve as CSS custom properties definidas pelo tema
+ * BaseV2 (themes/BaseV2/assets-src/sass/0.settings/_variables.scss).
+ * É um arquivo CSS puro (sem build/sass) - basta editar os valores abaixo,
+ * salvar e recarregar a página.
+ *
+ * Os valores atuais são os mesmos padrões do BaseV2 (nada muda visualmente
+ * ainda). Troque os -500 pela cor de marca desejada; -300 é usado como tom
+ * mais claro (hover/fundo) e -700 como tom mais escuro (texto/contraste).
+ */
+
+:root {
+    /* Cor primária: usada em botões, links e destaques em geral */
+    --mc-primary-300: rgb(47, 217, 228);
+    --mc-primary-500: #117C83;
+    --mc-primary-700: rgb(2, 17, 18);
+
+    /* Cor secundária: usada em elementos de apoio/contraste */
+    --mc-secondary-300: rgb(234, 157, 140);
+    --mc-secondary-500: #D14526;
+    --mc-secondary-700: rgb(101, 33, 18);
+
+    /* Cores por tipo de entidade (ícones, badges, cards de listagem) */
+    --mc-agents-300: rgb(249, 206, 186);
+    --mc-agents-500: #EF7B45;
+    --mc-agents-700: rgb(166, 63, 14);
+
+    --mc-events-300: rgb(210, 175, 230);
+    --mc-events-500: #9C4EC7;
+    --mc-events-700: rgb(86, 36, 114);
+
+    --mc-opportunities-300: rgb(234, 157, 140);
+    --mc-opportunities-500: #D14526;
+    --mc-opportunities-700: rgb(101, 33, 18);
+
+    --mc-projects-300: rgb(47, 217, 228);
+    --mc-projects-500: #117C83;
+    --mc-projects-700: rgb(2, 17, 18);
+
+    --mc-spaces-300: rgb(151, 240, 39);
+    --mc-spaces-500: #538D0A;
+    --mc-spaces-700: rgb(13, 22, 2);
+
+    --mc-seals-300: rgb(94, 94, 94);
+    --mc-seals-500: #1E1E1E;
+    --mc-seals-700: black;
+
+    /* Acentos usados especificamente na home */
+    --mc-home-register: var(--mc-primary-500);
+    --mc-home-opportunities: var(--mc-secondary-500);
+}

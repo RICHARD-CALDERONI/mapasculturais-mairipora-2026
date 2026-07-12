@@ -20,6 +20,7 @@ services:
       - ./config.d:/var/www/config/local.d
 
       # themes and plugins
+      - ../themes/Mairipora:/var/www/src/themes/Mairipora
       - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
       - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
